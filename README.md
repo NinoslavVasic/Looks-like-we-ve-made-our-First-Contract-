@@ -1,12 +1,10 @@
-<h1>Blockchain with Solidity! </h1>
+<h1>Blockchain - Smart Contracts with Solidity! </h1>
 
 ![contract](https://image.shutterstock.com/z/stock-photo-two-hands-handshake-polygonal-low-poly-hud-illustration-smart-contract-agreement-blockchain-and-1161295627.jpg)
 
-<h1> MultiWallet<h1>
+<h1> "Looks like we've made our First Contract!"<h1>
 
 
-
-<h2>Instruction: step by step</h2>
 
 ## Background
 
@@ -31,7 +29,7 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 ## Initial Instructions
 
-This assignment has 3 levels of difficulty, with each contract increasing in complexity and capability. Start with Level 1, then move forward as you complete the challenges. You can build all three with the skills you already have!
+This assignment has 3 levels of difficulty, with each contract increasing in complexity and capability. 
 
 * **Level One** is an `AssociateProfitSplitter` contract. This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
 
@@ -39,19 +37,22 @@ This assignment has 3 levels of difficulty, with each contract increasing in com
 
 * **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
 
-### Starting your project
+### Starting project
 
-Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for level one above.
+Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contracts  using the starter code for respected level above.
 
-While developing and testing your contract, use the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
+While developing and testing contracts, use the [Ganache](https://www.trufflesuite.com/ganache) development chain, and point MetaMask to `localhost:8545`, or replace the port with what you have set in your workspace.
 
 
 
-#### setup, compile, deploy
+#### SetUp, Compile, Deploy
+As Solidity is OOP (Object Oriented Programming) language all contracts must be compiled and deployed first.
 
-#### Test the contract
+#### NOTE: Make sure to use correct compiling version in Remix (^0.5.0 or above) and always use prefunded address from Metamask. Contracts deployment has to be done with 0 wei and Injected Web3 which will automatically connect your 'lead' MetaMask address. As this exercise require using multiple ETH wallet address always check if your 'lead' in order to succesfully execute transactions.
 
-In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
+#### Test the contracts
+
+In the `Deploy` tab in Remix, deploy the contracts to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
 
 You will need to fill in the constructor parameters with your designated `employee` addresses.
 
@@ -63,7 +64,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ### Deploy the contracts to a live Testnet
 
-Once you feel comfortable with your contracts, point MetaMask to the Kovan or Ropsten network. Ensure you have test Ether on this network!
+Contracts in this exercise are pointed on MetaMask to the Kovan network. 
 
 After switching MetaMask to Kovan, deploy the contracts as before and copy/keep a note of their deployed addresses. The transactions will also be in your MetaMask history, and on the blockchain permanently to explore later.
 
@@ -78,48 +79,67 @@ After switching MetaMask to Kovan, deploy the contracts as before and copy/keep 
 
 
 
-<p> Confirmation of Executed Transaction </p>
+<p> Contract Deployment </p>
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/01-Associate_Profit_Splitter_deployment.PNG)
 
-<p> Confirmation of Executed Transaction </p>
+<p> Confirmation of Deployed Contract </p>
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/02-ass_contract_confirmed.PNG)
 
-<p> Confirmation of Executed Transaction </p>
+<p> Profit Splitter Confirmation </p> 
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/Inked03-ass_profit_split_employess_confirmation_LI.jpg)
 
 
-
-#### NOTE: If one get an error running `./derive`, as it can happen on windows machine then use: `php ./hd-wallet-derive/hd-wallet-derive.php`.
 
 
 ### Level Two: The `TieredProfitSplitter` Contract
 
-In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
+In this contract, rather than splitting the profits between Associate-level employees, it is calculated by rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
 
-<p> Confirmation of Executed Transaction </p>
+<p> Contract Deployment </p>
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
-<p> Confirmation of Executed Transaction </p>
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/04-tiered_profit_splitter_deployment.PNG)
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
+<p> tiered Profit Deposited </p>
 
-<p> Confirmation of Executed Transaction </p>
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/05-tiered_deposit.PNG)
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/btc-confirmation%20-trx.PNG)
+<p> Tiered Deposit Confirmation </p> 
 
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/Inked06-tiered_confirmation_LI.jpg)
 
    
+### Level Three: The `DeferredEquityPlan` Contract
+
+In this contract, we  are managing an employee's "deferred equity incentive plan" in which 1000 shares will be distributed over 4 years to the employee. We won't need to work with Ether in this contract, but we will be storing and setting amounts that represent the number of distributed shares the employee owns and enforcing the vetting periods automatically.
+
+<p> `DeferredEquityPlan` Contract Deployment </p>
+
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/07-deffered_deployment.PNG)
+
+<p> `DeferredEquityPlan` Contract Deployment Confirmation </p>
+
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/08-deffered_deployed_acc.PNG)
+
+
+
+
 
 
 
 
 ## More details on the:
    
-   - codes:  'https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/wallet.py'
+   - codes: 
+   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Associate_Profit_Splitter.sol',
+   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Tiered_Profit_Splitter.sol',
+   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Deffered_Equity_Plan.sol',
+  
+  - fakenow code file: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/fakenow_deffered_equity_plan.sol'
+   
 
 
 
