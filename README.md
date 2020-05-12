@@ -6,13 +6,13 @@
 
 
 
-## Background
+## Idea behind the exercise
 
-Your new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
+ New startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
 
-Fortunately, you've been learning how to program smart contracts with Solidity! What you will be doing this assignment is creating a few `ProfitSplitter` contracts. These contracts will do several things:
+Fortunately,they learnt how to program smart contracts with Solidity! Creating `ProfitSplitter` contracts is goal in this exercise. These contracts will do several things:
 
-* Pay your Associate-level employees quickly and easily.
+* Pay company Associate-level employees quickly and easily.
 
 * Distribute profits to different tiers of employees.
 
@@ -76,18 +76,19 @@ After switching MetaMask to Kovan, deploy the contracts as before and copy/keep 
 
 ### Level One: The `AssociateProfitSplitter` Contract
 
+This will accept Ether into the contract and divide the Ether evenly among the associate level employees. This will allow the Human Resources department to pay employees quickly and efficiently.
 
 
 
-<p> Contract Deployment </p>
+<p> `AssociateProfitSplitter` - Contract Deployment </p>
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/01-Associate_Profit_Splitter_deployment.PNG)
 
-<p> Confirmation of Deployed Contract </p>
+<p> `AssociateProfitSplitter` - Confirmation of Deployed Contract </p>
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/02-ass_contract_confirmed.PNG)
 
-<p> Profit Splitter Confirmation </p> 
+<p> `AssociateProfitSplitter` - Profit Splitter Confirmation </p> 
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/Inked03-ass_profit_split_employess_confirmation_LI.jpg)
 
@@ -99,15 +100,15 @@ After switching MetaMask to Kovan, deploy the contracts as before and copy/keep 
 In this contract, rather than splitting the profits between Associate-level employees, it is calculated by rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
 
-<p> Contract Deployment </p>
+<p> `TieredProfitSplitter` - Contract Deployment </p>
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/04-tiered_profit_splitter_deployment.PNG)
 
-<p> tiered Profit Deposited </p>
+<p> `TieredProfitSplitter` - Profit Deposited </p>
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/05-tiered_deposit.PNG)
 
-<p> Tiered Deposit Confirmation </p> 
+<p> `TieredProfitSplitter` - Deposit Confirmation </p> 
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/Inked06-tiered_confirmation_LI.jpg)
 
@@ -133,12 +134,10 @@ In this contract, we  are managing an employee's "deferred equity incentive plan
 
 ## More details on the:
    
-   - codes: 
-   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Associate_Profit_Splitter.sol',
-   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Tiered_Profit_Splitter.sol',
-   'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Deffered_Equity_Plan.sol',
-  
-  - fakenow code file: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/fakenow_deffered_equity_plan.sol'
+   - codes_file_1: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Associate_Profit_Splitter.sol',
+   - codes_file_2: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Tiered_Profit_Splitter.sol',
+   - codes_file_3: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/Deffered_Equity_Plan.sol',
+   - fakenow codes_file_4: 'https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/fakenow_deffered_equity_plan.sol'
    
 
 
