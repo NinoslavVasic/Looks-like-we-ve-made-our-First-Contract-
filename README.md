@@ -109,6 +109,10 @@ In this contract, we  are managing an employee's "deferred equity incentive plan
 
 ![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/08-deffered_deployed_acc.PNG)
 
+<p> 'Etherscan' Blockchain transactions ledger </p>
+
+![](https://github.com/NinoslavVasic/Looks-like-we-ve-made-our-First-Contract-/blob/master/screenshots/Inkedetherscan_blockchain_transactions_LI.jpg)
+
 
 ## More details on the:
    
